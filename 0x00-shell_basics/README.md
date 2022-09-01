@@ -1,1 +1,1 @@
-current directory contents
+a script that creates a directory named
