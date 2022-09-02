@@ -1,1 +1,1 @@
-i am getting it
+ a script that switches the current user to the user 
