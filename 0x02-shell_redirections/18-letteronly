@@ -1,2 +1,2 @@
 #!/bin/bash
-greg ^[[alpha:]] /etc/ssh/sshd_config
+greg _i "^[a-z] /etc/ssh/sshd_config
