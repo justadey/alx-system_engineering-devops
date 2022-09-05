@@ -1,2 +1,2 @@
 #!/bin/bash
-greg -1 "A[a-z]" /etc/ssh/ssh_config
+greg ^[[alpha:]] /etc/ssh/sshd_config
