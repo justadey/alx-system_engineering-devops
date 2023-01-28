@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Gives info on bestschool file
+
+if [ ! -e bestschool ]
+then
+    echo "bestschool file does not exist"
+else
+    echo "bestschool file exists"
+    if [ -s bestschool ]
+    then
+        echo "bestschool file is not empty"
+    else
+        echo "bestschool file is empty"
+    fi
+    if [ -f bestschool ]
+    then
+        echo "bestschool is a regular file"
+    fi
+fi
